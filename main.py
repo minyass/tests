@@ -1,5 +1,5 @@
 import math
-print ("resolva a equação 3x² + 4x + 1 = 0")
+print ("X² + x + 1 = 0")
 a = input("insira a:" )
 b = input("insira b:" )
 c = input("insira c:" )
