@@ -1,8 +1,13 @@
 import math
+import random
 print ("X² + x + 1 = 0")
-a = input("insira a:" )
-b = input("insira b:" )
-c = input("insira c:" )
+a = random.randint(0,99)
+b = random.randint(0,99)
+c = random.randint(0,99)
+##a = input("insira a:" )
+#b = input("insira b:" )
+#c = input("insira c:" )
+print (f"Numeros = {a} , {b} , {c}")
 
 delta = int (b) ** 2 - 4 * int (a) * int (c)
 if delta > 0:
